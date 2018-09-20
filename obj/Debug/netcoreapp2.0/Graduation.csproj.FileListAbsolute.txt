@@ -1,0 +1,12 @@
+C:\Users\Reda khamis\Desktop\Graduation\Graduation\Graduation\bin\Debug\netcoreapp2.0\Graduation.deps.json
+C:\Users\Reda khamis\Desktop\Graduation\Graduation\Graduation\bin\Debug\netcoreapp2.0\Graduation.runtimeconfig.json
+C:\Users\Reda khamis\Desktop\Graduation\Graduation\Graduation\bin\Debug\netcoreapp2.0\Graduation.runtimeconfig.dev.json
+C:\Users\Reda khamis\Desktop\Graduation\Graduation\Graduation\bin\Debug\netcoreapp2.0\Graduation.dll
+C:\Users\Reda khamis\Desktop\Graduation\Graduation\Graduation\bin\Debug\netcoreapp2.0\Graduation.pdb
+C:\Users\Reda khamis\Desktop\Graduation\Graduation\Graduation\obj\Debug\netcoreapp2.0\Graduation.csproj.CoreCompileInputs.cache
+C:\Users\Reda khamis\Desktop\Graduation\Graduation\Graduation\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Reda khamis\Desktop\Graduation\Graduation\Graduation\obj\Debug\netcoreapp2.0\Graduation.AssemblyInfoInputs.cache
+C:\Users\Reda khamis\Desktop\Graduation\Graduation\Graduation\obj\Debug\netcoreapp2.0\Graduation.AssemblyInfo.cs
+C:\Users\Reda khamis\Desktop\Graduation\Graduation\Graduation\obj\Debug\netcoreapp2.0\Graduation.dll
+C:\Users\Reda khamis\Desktop\Graduation\Graduation\Graduation\obj\Debug\netcoreapp2.0\Graduation.pdb
+C:\Users\Reda khamis\Desktop\Graduation\Graduation\Graduation\obj\Debug\netcoreapp2.0\Graduation.csprojAssemblyReference.cache

@@ -1,0 +1,19 @@
+﻿@media (min-width: 992px) {
+    #mainNav {
+        background-color: transparent;
+    }
+}
+
+.footer-down {
+    color: #212529;
+    background-color: white;
+}
+
+ul.social-buttons li a {
+    color: white;
+    background-color: #212529;
+}
+
+.fixed-top {
+    position: fixed;
+}

@@ -1,0 +1,36 @@
+﻿@model FileData
+@{
+    ViewData["Title"] = "Upload";
+}
+<h2>@ViewData["Title"]</h2>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+<form asp-controller="ObjFiles" asp-action="Upload" method="post" class="form-horizontal col-md-6" role="form" enctype="multipart/form-data">
+    <h4>Create a new account</h4>
+    <hr />
+    @*<div class="form-group ">
+            <label asp-for="Username" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Username" class="form-control" placeholder="username" />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+        </div>*@
+
+    <div class="form-group">
+        <label asp-for="ObjFile" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <input asp-for="ObjFile" class="form-control"  type="file" multiple />
+            <span asp-validation-for="ObjFile" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <button type="submit" class="btn btn-default">Register</button>
+        </div>
+    </div>
+
+    <hr />
+    <div asp-validation-summary="All" class="text-danger"></div>
+</form>

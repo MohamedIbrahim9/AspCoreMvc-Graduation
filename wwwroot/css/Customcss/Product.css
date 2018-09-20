@@ -1,0 +1,14 @@
+﻿#side-viewer {
+    background-color: #000000ba;
+    height: 400px;
+    width: 600px;
+    margin-top: 200px;
+    margin-left: 117px;
+    border-radius: 10px;
+}
+
+#TryProduct {
+    width: 250px;
+    border-color: white;
+    margin-top: 30px;
+}

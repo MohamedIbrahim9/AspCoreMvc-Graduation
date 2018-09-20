@@ -1,0 +1,42 @@
+﻿@model Graduation.Data.Models.ObjFile
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ObjFile</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.StaticFilePath)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.StaticFilePath)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RelativeFilePath)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RelativeFilePath)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.UploadedTime)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.UploadedTime)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ApplicationUser)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ApplicationUser.Id)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

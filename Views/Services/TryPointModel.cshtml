@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Try-Point-to-Model";
+}
+@model PointCloud
+
+@section Styles{
+    <link href="~/css/Customcss/TryProduct.css" rel="stylesheet" />
+}
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+<section class="product-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Point-To-Model</h2>
+                <h3 class="section-subheading text-uppercase">Please Upload Point Cloud File (.XYZ) Format </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 offset-md-3" id="CenterDiv">
+                <form asp-controller="ObjFiles" asp-action="UploadPointCloud" method="post" class="form-horizontal" role="form" enctype="multipart/form-data" id="InputForm">
+                    <div class="form-group">
+                        <div class="col-md-10">
+                            <input asp-for="PointCloudFile" class="form-control" type="file" />
+                            <span asp-validation-for="PointCloudFile" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-offset-2 col-md-10">
+                            <button type="submit" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger">Start</button>
+                        </div>
+                    </div>
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
